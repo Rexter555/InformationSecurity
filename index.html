@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Caesar Cipher</h1>
+    <section id="Hero">
+        <div class="Enter">
+            <textarea class="tex" id="plaintext" placeholder="Enter your message..."></textarea><br>
+            <input type="number" class="tex" id="shift" placeholder="Enter shift amount..."><br>
+        </div>
+        <div>
+            <button class="butt" onclick="encrypt()">Encrypt</button><br>
+        </div>
+        <textarea id="ciphertext" placeholder="Result will appear here..." readonly></textarea>
+        <div>
+            <button class="butt" onclick="decrypt()">Decrypt</button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html> 

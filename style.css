@@ -1,0 +1,72 @@
+body {
+	top: -10;
+    background-image: url(./img/pexels.jpg);
+	background-size: cover; 
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+    background-color: rgb(176, 218, 130);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+	background-color: rgb(126, 224, 215);
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+button:hover {
+	background-color: rgb(126, 136, 224);
+}
+
+::placeholder {
+	color: rgb(89, 47, 12);
+	font-size: 15px;
+}
+
+input {
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 20px;
+	margin: 10px;
+	
+}
+
+h1 {
+	color: rgba(95, 28, 25, 0.79);
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+h1 { 
+    margin-top: 200px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    resize: none;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 5px;
+
+
+}
+
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+}
